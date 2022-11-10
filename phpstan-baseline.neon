@@ -1,0 +1,136 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Call to method all\\(\\) on an unknown class App\\\\Http\\\\Requests\\\\StoreUrl\\.$#"
+			count: 1
+			path: app/Http/Controllers/API/UrlController.php
+
+		-
+			message: "#^Call to method rules\\(\\) on an unknown class App\\\\Http\\\\Requests\\\\StoreUrl\\.$#"
+			count: 1
+			path: app/Http/Controllers/API/UrlController.php
+
+		-
+			message: "#^Instantiated class App\\\\Http\\\\Requests\\\\StoreUrl not found\\.$#"
+			count: 1
+			path: app/Http/Controllers/API/UrlController.php
+
+		-
+			message: "#^Parameter \\$request of method App\\\\Http\\\\Controllers\\\\API\\\\UrlController\\:\\:store\\(\\) has invalid type App\\\\Http\\\\Requests\\\\StoreUrl\\.$#"
+			count: 2
+			path: app/Http/Controllers/API/UrlController.php
+
+		-
+			message: "#^Parameter \\#1 \\$view of function view expects view\\-string\\|null, string given\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/AllUrlController.php
+
+		-
+			message: "#^Parameter \\#1 \\$view of function view expects view\\-string\\|null, string given\\.$#"
+			count: 2
+			path: app/Http/Controllers/Dashboard/DashboardController.php
+
+		-
+			message: "#^Access to offset 'new\\-password' on an unknown class App\\\\Http\\\\Requests\\\\UpdateUserPassword\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/User/ChangePasswordController.php
+
+		-
+			message: "#^Parameter \\#1 \\$view of function view expects view\\-string\\|null, string given\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/User/ChangePasswordController.php
+
+		-
+			message: "#^Parameter \\$request of method App\\\\Http\\\\Controllers\\\\Dashboard\\\\User\\\\ChangePasswordController\\:\\:update\\(\\) has invalid type App\\\\Http\\\\Requests\\\\UpdateUserPassword\\.$#"
+			count: 2
+			path: app/Http/Controllers/Dashboard/User/ChangePasswordController.php
+
+		-
+			message: "#^Access to property \\$email on an unknown class App\\\\Http\\\\Requests\\\\UpdateUserEmail\\.$#"
+			count: 1
+			path: app/Http/Controllers/Dashboard/User/UserController.php
+
+		-
+			message: "#^Parameter \\#1 \\$view of function view expects view\\-string\\|null, string given\\.$#"
+			count: 2
+			path: app/Http/Controllers/Dashboard/User/UserController.php
+
+		-
+			message: "#^Parameter \\$request of method App\\\\Http\\\\Controllers\\\\Dashboard\\\\User\\\\UserController\\:\\:update\\(\\) has invalid type App\\\\Http\\\\Requests\\\\UpdateUserEmail\\.$#"
+			count: 2
+			path: app/Http/Controllers/Dashboard/User/UserController.php
+
+		-
+			message: "#^Parameter \\#1 \\$view of function view expects view\\-string\\|null, string given\\.$#"
+			count: 2
+			path: app/Http/Controllers/UrlController.php
+
+		-
+			message: "#^Parameter \\$request of method App\\\\Http\\\\Controllers\\\\UrlController\\:\\:create\\(\\) has invalid type App\\\\Http\\\\Requests\\\\StoreUrl\\.$#"
+			count: 2
+			path: app/Http/Controllers/UrlController.php
+
+		-
+			message: "#^Access to offset 'custom_key' on an unknown class App\\\\Http\\\\Requests\\\\StoreUrl\\.$#"
+			count: 2
+			path: app/Models/Url.php
+
+		-
+			message: "#^Access to offset 'long_url' on an unknown class App\\\\Http\\\\Requests\\\\StoreUrl\\.$#"
+			count: 3
+			path: app/Models/Url.php
+
+		-
+			message: "#^Call to method ip\\(\\) on an unknown class App\\\\Http\\\\Requests\\\\StoreUrl\\.$#"
+			count: 1
+			path: app/Models/Url.php
+
+		-
+			message: "#^Call to static method urlSanitize\\(\\) on an unknown class App\\\\Helpers\\\\Helper\\.$#"
+			count: 1
+			path: app/Models/Url.php
+
+		-
+			message: "#^Parameter \\$request of method App\\\\Models\\\\Url\\:\\:shortenUrl\\(\\) has invalid type App\\\\Http\\\\Requests\\\\StoreUrl\\.$#"
+			count: 2
+			path: app/Models/Url.php
+
+		-
+			message: "#^Call to static method raw\\(\\) on an unknown class App\\\\Models\\\\DB\\.$#"
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Models\\\\User\\:\\:\\$casts is not covariant with PHPDoc type array\\<string, string\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$casts\\.$#"
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Models\\\\User\\:\\:\\$hidden is not covariant with PHPDoc type list\\<string\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$hidden\\.$#"
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: "#^Call to static method urlSanitize\\(\\) on an unknown class App\\\\Helpers\\\\Helper\\.$#"
+			count: 1
+			path: app/Rules/Url/DomainBlacklist.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class App\\\\Models\\\\Team\\.$#"
+			count: 1
+			path: database/factories/UserFactory.php
+
+		-
+			message: "#^Method Database\\\\Factories\\\\UserFactory\\:\\:withPersonalTeam\\(\\) should return \\$this\\(Database\\\\Factories\\\\UserFactory\\) but returns static\\(Database\\\\Factories\\\\UserFactory\\)\\.$#"
+			count: 2
+			path: database/factories/UserFactory.php
+
+		-
+			message: "#^PHPDoc type string of property Database\\\\Factories\\\\UserFactory\\:\\:\\$model is not covariant with PHPDoc type class\\-string\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Factories\\\\Factory\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:\\$model\\.$#"
+			count: 1
+			path: database/factories/UserFactory.php
+
+		-
+			message: "#^Undefined variable\\: \\$this$#"
+			count: 1
+			path: routes/console.php
