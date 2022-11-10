@@ -50,30 +50,6 @@
             "type": "shell",
             "command": "composer dump-autoload",
             "problemMatcher": []
-        },
-        {
-            "label": "[Artisan] Migrate (seed)",
-            "type": "shell",
-            "command": "php artisan migrate:fresh --seed",
-            "problemMatcher": []
-        },
-        {
-            "label": "[Artisan] Icon: Cache-set",
-            "type": "shell",
-            "command": "php artisan icons:cache",
-            "problemMatcher": []
-        },
-        {
-            "label": "[Artisan] Icon: Cache-clear",
-            "type": "shell",
-            "command": "php artisan icons:clear",
-            "problemMatcher": []
-        },
-        {
-            "label": "[NPM] Dev",
-            "type": "shell",
-            "command": "yarn dev",
-            "problemMatcher": []
         }
     ]
 }
