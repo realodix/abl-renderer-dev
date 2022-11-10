@@ -1,5 +1,5 @@
 {
-    "name": "realodix/laravel-zero",
+    "name": "realodix/hippo",
     "description": "Ad blocker filters compiler",
     "license": "MIT",
     "authors": [{"name": "Budi Hermawan", "role": "Developer"}],
@@ -28,9 +28,12 @@
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": false
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "bin": ["application"]
+    "bin": ["hippo"]
 }
